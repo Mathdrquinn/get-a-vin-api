@@ -6,3 +6,7 @@ This is a Node.js applications. Please go to the [downloads page](https://nodejs
 2. Run the application with command `npm run dev`. This will begin the application at [http://localhost:3001](http://localhost:3001).
 
 This application has one endpoint, accessible locally at [http://localhost:3001/api/random-vin](http://localhost:3001/api/random-vin)
+
+## Running in Production Mode
+
+To run the application in production mode, first run `npm run build` then `npm start`.  The application will run on port `8080`.
